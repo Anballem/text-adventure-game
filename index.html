@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Lost Temple</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col items-center">
+
+  <h1 class="text-4xl font-bold mt-8 mb-4">The Lost Temple</h1>
+
+  <div id="game" class="bg-gray-800 border border-gray-700 rounded-lg p-6 w-11/12 md:w-2/3 lg:w-1/2">
+    <p id="description" class="mb-2 text-lg"></p>
+    <p id="objects" class="mb-2 text-sm text-yellow-300"></p>
+    <p id="characters" class="text-sm text-red-400"></p>
+  </div>
+
+  <div id="controls" class="mt-6 grid grid-cols-3 gap-3">
+    <button onclick="move('north')" class="btn">North</button>
+    <button onclick="move('west')" class="btn">West</button>
+    <button onclick="move('east')" class="btn">East</button>
+    <button onclick="move('south')" class="btn col-span-3">South</button>
+    <button onclick="interact()" class="btn col-span-3 bg-green-600 hover:bg-green-700">
+      Interact
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+
+  <style>
+    /* Basic button styles equivalent to Tailwind utilities to avoid @apply */
+    .btn {
+      background-color: #2563eb; /* bg-blue-600 */
+      color: #ffffff; /* text-white */
+      padding: 0.5rem 1rem; /* py-2 px-4 */
+      border-radius: 0.25rem; /* rounded */
+      border: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #1d4ed8; /* hover:bg-blue-700 */
+    }
+  </style>
+
+</body>
+</html>
+
