@@ -1,3 +1,6 @@
+# text-adventure-game
+OOP Text Adventure Game
+
 The Lost Temple – Text Adventure Game
 
 A browser-based text adventure game built using Object-Oriented Programming in JavaScript.
@@ -42,7 +45,7 @@ Character
 Represents friendly or hostile NPCs
 
 Player  
-Tracks the player’s current room and inventory
+Tracks the player's current room and inventory
 
 The game logic reuses these classes to allow easy extension or creation of new games.
 
@@ -59,6 +62,4 @@ Lose Condition:
 
 **Live Game:**  
 `https://Anballem.github.io/text-adventure/`
-
-
 
