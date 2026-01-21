@@ -29,9 +29,9 @@ Entering the final room without the key results in Game Over.
 Technologies Used
 
 - HTML5
-- Tailwind CSS (via CDN)
-- JavaScript (ES6)
-- Object-Oriented Programming (Classes)
+- Tailwind CSS 
+- JavaScript 
+- Object-Oriented Programming 
 
 
 OOP Design
